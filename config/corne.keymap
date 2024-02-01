@@ -31,19 +31,19 @@
 
         NUMBER {
             bindings = <
-&gresc  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0  &trans
-&trans  &trans        &trans        &trans        &trans        &trans           &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT          &kp SQT       &trans
-&trans  &trans        &trans        &trans        &trans        &kp BACKSPACE    &kp MINUS     &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH     &trans
+&gresc  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0          &trans
+&trans  &trans        &trans        &trans        &trans        &trans           &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT          &kp SQT               &trans
+&trans  &trans        &trans        &trans        &trans        &kp BACKSPACE    &kp MINUS     &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH  &trans
                                     &trans        &trans        &trans           &trans        &trans          &trans
             >;
         };
 
         FUNCTION {
             bindings = <
-&kp F1        &kp F2  &kp F3           &kp F4  &kp F5  &kp F6    &kp F7        &kp F8        &kp F9             &kp F10       &kp F11  &kp F12
-&kp CAPSLOCK  &trans  &kp PRINTSCREEN  &trans  &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3  &trans   &trans
-&trans        &trans  &trans           &trans  &trans  &trans    &bt BT_CLR    &out OUT_TOG  &ext_power EP_TOG  &trans        &trans   &trans
-                                       &trans  &trans  &trans    &trans        &trans        &trans
+&kp F1        &kp F2  &kp F3           &kp F4  &kp F5           &kp F6                  &kp F7        &kp F8        &kp F9             &kp F10       &kp F11  &kp F12
+&kp CAPSLOCK  &trans  &kp PRINTSCREEN  &trans  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3  &trans   &trans
+&trans        &trans  &trans           &trans  &kp C_VOL_DN     &kp C_BRIGHTNESS_DEC    &bt BT_CLR    &out OUT_TOG  &ext_power EP_TOG  &trans        &trans   &trans
+                                       &trans  &trans           &trans                  &trans        &trans        &trans
             >;
         };
     };
